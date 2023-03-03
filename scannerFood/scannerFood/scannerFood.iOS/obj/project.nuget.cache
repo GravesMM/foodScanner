@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "rCaFT5hj9JxU5cVNMr/fcGXazyOkiFE6uoFreUMRg6eWaWQz4kjGQ+L5kGW6HqSJh9170mpxSGChDpQpYzZBsA==",
+  "success": true,
+  "projectFilePath": "D:\\foodScanner\\scannerFood\\scannerFood\\scannerFood.iOS\\scannerFood.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Myste\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
