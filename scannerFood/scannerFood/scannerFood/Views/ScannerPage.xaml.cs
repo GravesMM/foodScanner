@@ -58,6 +58,8 @@ namespace scannerFood.Views
                 await stream.CopyToAsync(newStream);
 
             PhotoPath = newFile;
+
+            
         }
 
         private void btnOpenCamera_Clicked(object sender, EventArgs e)

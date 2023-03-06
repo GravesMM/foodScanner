@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="scannerFood.Views.SelectionPage"
+             xmlns:vm="clr-namespace:scannerFood.ViewModels">
+  
+
+    <ContentPage.BindingContext>
+        <vm:SelectionViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Start" HorizontalOptions="Center">
+            <Label Text="Please select the allergies you have" FontSize="18"/>
+            
+            <StackLayout VerticalOptions="Center">
+                
+                <StackLayout Orientation="Horizontal">
+                    <CheckBox x:Name="EggCheckbox" IsChecked="{Binding EggSelector, Mode=TwoWay}" ></CheckBox>
+                    <Label Text="Eggs" VerticalOptions="Center"></Label>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <CheckBox x:Name="CowCheckbox" IsChecked="{Binding CowSelector, Mode=TwoWay}"></CheckBox>
+                    <Label Text="Cow" VerticalOptions="Center"></Label>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <CheckBox x:Name="FishCheckbox" IsChecked="{Binding FishSelector, Mode=TwoWay}" ></CheckBox>
+                    <Label Text="Fish" VerticalOptions="Center"></Label>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <CheckBox x:Name="MolluscanCheckbox" IsChecked="{Binding MolluscanSelector, Mode=TwoWay}" ></CheckBox>
+                    <Label Text="Molluscan Shellfish" VerticalOptions="Center"></Label>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <CheckBox x:Name="CrustaceanCheckbox" IsChecked="{Binding CrustaceanSelector, Mode=TwoWay}"></CheckBox>
+                    <Label Text="Crustacean Shellfish" VerticalOptions="Center"></Label>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <CheckBox x:Name="PeanutCheckbox" IsChecked="{Binding PeanutSelector, Mode=TwoWay}" ></CheckBox>
+                    <Label Text="Peanut" VerticalOptions="Center"></Label>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <CheckBox x:Name="SoyCheckbox"  IsChecked="{Binding SoySelector, Mode=TwoWay}"></CheckBox>
+                    <Label Text="Soy" VerticalOptions="Center"></Label>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <CheckBox x:Name="WheatCheckbox" IsChecked="{Binding WheatSelector, Mode=TwoWay}" ></CheckBox>
+                    <Label Text="Wheat" VerticalOptions="Center"></Label>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <CheckBox x:Name="TreenutCheckbox" IsChecked="{Binding TreenutSelector, Mode=TwoWay}" ></CheckBox>
+                    <Label Text="Treenut" VerticalOptions="Center"></Label>
+                </StackLayout>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

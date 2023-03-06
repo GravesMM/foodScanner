@@ -2,7 +2,6 @@ D:\foodScanner\scannerFood\scannerFood\scannerFood\bin\Debug\netstandard2.0\scan
 D:\foodScanner\scannerFood\scannerFood\scannerFood\bin\Debug\netstandard2.0\scannerFood.dll
 D:\foodScanner\scannerFood\scannerFood\scannerFood\bin\Debug\netstandard2.0\ref\scannerFood.dll
 D:\foodScanner\scannerFood\scannerFood\scannerFood\bin\Debug\netstandard2.0\scannerFood.pdb
-D:\foodScanner\scannerFood\scannerFood\scannerFood\obj\Debug\netstandard2.0\scannerFood.csproj.AssemblyReference.cache
 D:\foodScanner\scannerFood\scannerFood\scannerFood\obj\Debug\netstandard2.0\scannerFood.GeneratedMSBuildEditorConfig.editorconfig
 D:\foodScanner\scannerFood\scannerFood\scannerFood\obj\Debug\netstandard2.0\App.xaml.g.cs
 D:\foodScanner\scannerFood\scannerFood\scannerFood\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
@@ -19,3 +18,5 @@ D:\foodScanner\scannerFood\scannerFood\scannerFood\obj\Debug\netstandard2.0\Xaml
 D:\foodScanner\scannerFood\scannerFood\scannerFood\obj\Debug\netstandard2.0\scannerFood.dll
 D:\foodScanner\scannerFood\scannerFood\scannerFood\obj\Debug\netstandard2.0\ref\scannerFood.dll
 D:\foodScanner\scannerFood\scannerFood\scannerFood\obj\Debug\netstandard2.0\scannerFood.pdb
+D:\foodScanner\scannerFood\scannerFood\scannerFood\obj\Debug\netstandard2.0\Views\SelectionPage.xaml.g.cs
+D:\foodScanner\scannerFood\scannerFood\scannerFood\obj\Debug\netstandard2.0\scannerFood.csproj.AssemblyReference.cache
