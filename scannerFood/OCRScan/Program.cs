@@ -15,16 +15,16 @@ namespace OCRScan
     {
         // <snippet_vars>
         // Add your Computer Vision subscription key and endpoint   
-        static string subscriptionKey = "c1f515eaa1ef4950b0eaee273ff256c4";
-        static string endpoint = "https://allergycomputervision.cognitiveservices.azure.com/";
+        static readonly string subscriptionKey = "c1f515eaa1ef4950b0eaee273ff256c4";
+        static readonly string endpoint = "https://allergycomputervision.cognitiveservices.azure.com/";
         // </snippet_vars>
         // </snippet_using_and_vars>
 
-        static string[] eggNames = { "egg", "eggs", "egg powder", "dried eggs", "egg solids", "albumin" };
-        static List<string> eggList = new List<string>(eggNames);
+        static readonly string[] eggNames = { "egg", "eggs", "egg powder", "dried eggs", "egg solids", "albumin" };
+        static readonly List<string> eggList = new List<string>(eggNames);
 
         // Download these images (link in prerequisites), or you can use any appropriate image on your local machine.
-        private const string READ_TEXT_LOCAL_IMAGE = "easter-angel-cake-ingredients-list-by-bakethiscake.jpg";
+        private const string READ_TEXT_LOCAL_IMAGE = "DavidDisappoint.jpg";
 
         // <snippet_readtext_url>
         private const string READ_TEXT_URL_IMAGE = "https://intelligentkioskstore.blob.core.windows.net/visionapi/suggestedphotos/3.png";

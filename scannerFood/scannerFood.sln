@@ -11,7 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "scannerFood", "scannerFood\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCRScan", "OCRScan\OCRScan.csproj", "{2EF01F22-F00E-4A1B-8153-622B209354F1}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedProject", "SharedProject\SharedProject.shproj", "{103656F7-262F-4680-BF17-4F0FC5E6CF96}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedProject\SharedProject.projitems*{103656f7-262f-4680-bf17-4f0fc5e6cf96}*SharedItemsImports = 13
+		SharedProject\SharedProject.projitems*{fff1e29c-cf9d-41a8-9007-1f82059f6f98}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|iPhone = Debug|iPhone

@@ -8,8 +8,8 @@ D:\foodScanner\scannerFood\OCRScan\bin\Debug\Newtonsoft.Json.dll
 D:\foodScanner\scannerFood\OCRScan\bin\Debug\Microsoft.Rest.ClientRuntime.xml
 D:\foodScanner\scannerFood\OCRScan\bin\Debug\Microsoft.Rest.ClientRuntime.Azure.xml
 D:\foodScanner\scannerFood\OCRScan\bin\Debug\Newtonsoft.Json.xml
-D:\foodScanner\scannerFood\OCRScan\obj\Debug\OCRScan.csproj.AssemblyReference.cache
 D:\foodScanner\scannerFood\OCRScan\obj\Debug\OCRScan.csproj.CoreCompileInputs.cache
 D:\foodScanner\scannerFood\OCRScan\obj\Debug\OCRScan.csproj.CopyComplete
 D:\foodScanner\scannerFood\OCRScan\obj\Debug\OCRScan.exe
 D:\foodScanner\scannerFood\OCRScan\obj\Debug\OCRScan.pdb
+D:\foodScanner\scannerFood\OCRScan\obj\Debug\OCRScan.csproj.AssemblyReference.cache
